@@ -328,22 +328,3 @@ form input,form textarea{
 html{
     scroll-behavior:smooth ;
 }
-@media only screen and (max-width: 480px) {
-    h1 {
-        font-size: 2rem;
-    }
-
-    .col-1 p i, .icon a {
-        font-size: 1.5rem;
-    }
-
-    .btn {
-        font-size: 1.1rem;
-        padding: 1rem 2rem;
-    }
-
-    form input, form textarea {
-        font-size: 1.1rem;
-        padding: 1rem;
-    }
-}
