@@ -137,8 +137,8 @@
                 <img src="images/img3.avif">
                 <div class="layer">
                     <h3>Live Weather</h3>
-                    <p>Andriod application by which we can know weather at given location</p>
-                <a href="#"><i class="fa-solid fa-link"></i></i></a>
+                    <p>Web application by which we can know weather at given location</p>
+                <a href="inde.html"><i id="cl" href=inde.html onclick="myfun()" class="fa-solid fa-link"></i></i></a>
                 </div>
             </div>
         </div>
@@ -181,6 +181,9 @@
  <script>
     var tablinks=document.getElementsByClassName("links");
     var tabcontents=document.getElementsByClassName("content");
+    function myfun(){
+        document.getElementById("cl").href;
+    }
     function opentab(tabname){
         for(tablink of tablinks){
             tablink.classList.remove("active-link");
