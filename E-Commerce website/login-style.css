@@ -1,0 +1,83 @@
+
+body{
+    margin:0;
+    padding:0;
+    background-color: black !important;
+}
+.box{
+    border-radius: 3px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 750px;
+    height: 560px;
+    background: white;
+    overflow: hidden;
+}
+.inline-text{
+    color: white;
+    position: absolute;
+    top:32px;
+    left:55px;
+
+}
+.inline-text h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+
+.inline-text p{
+    color: rgb(288, 288, 288);
+    opacity: 0.9;
+    font-size: 13px;
+    letter-spacing: 1px;
+
+}
+
+.box1{
+    background: url();
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #2874F0;
+}
+.box-2 .user-id{
+    position: relative;
+    left: 20px;
+    top: 50px;
+    padding: 10px 20px;
+}
+
+.box-2 .user-id input{
+    width:100%;
+    height: 40px;
+}
+.box-2 .user-data input{
+    color: black;
+    /* border: none;
+    border-bottom: 1px solid rgb(288, 288, 288);
+    outline: none;
+    background:none;
+    transition:0.5s; */
+    
+    
+}
+.box-2 .user-data input:focus ~ label,
+.box-2 .user-data input:focus ~ label{
+    top: -20px;
+    font-size: 12px;
+}
+
+.box-2 .user-data input:focus{
+    border-bottom: 1px solid #2874F0;
+}
+.box-2 span a{
+    position: absolute;
+    top:140px;
+    left:315px;
+    display: inline;
+    color: #2874F0;
+    font-weight: 600;
+}
